@@ -166,8 +166,8 @@ fun ButtonGrid(
                     .padding(3.dp)
                     .clip(RoundedCornerShape(7.dp))
                     .background(MaterialTheme.colors.secondaryVariant)
-                    .widthIn(min = 80.dp, max = 150.dp)
-                    .heightIn(min = 80.dp, max = 150.dp)
+                    .widthIn(min = 50.dp, max = 80.dp)
+                    .heightIn(min = 50.dp, max = 80.dp)
                     .clickable {
                         val numValue = button.toIntOrNull()
                         when {
